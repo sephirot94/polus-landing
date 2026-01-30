@@ -1,0 +1,93 @@
+---
+interface Props {
+  t: (key: string) => string;
+}
+
+const { t } = Astro.props;
+---
+
+<section id="pricing" class="py-20 sm:py-32 bg-secondary-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section Header -->
+    <div class="text-center max-w-3xl mx-auto">
+      <h2 class="text-3xl sm:text-4xl font-bold text-secondary-900">
+        {t('pricing.title')}
+      </h2>
+      <p class="mt-4 text-lg text-secondary-600">
+        {t('pricing.subtitle')}
+      </p>
+    </div>
+
+    <!-- Pricing Card -->
+    <div class="mt-16 max-w-lg mx-auto">
+      <div class="relative">
+        <div class="absolute -inset-1 bg-gradient-to-r from-primary-600 to-primary-400 rounded-2xl blur opacity-25"></div>
+        <div class="relative bg-white rounded-2xl shadow-xl overflow-hidden">
+          <div class="p-8 text-center">
+            <!-- Icon -->
+            <div class="w-16 h-16 mx-auto bg-primary-100 rounded-full flex items-center justify-center mb-6">
+              <svg class="w-8 h-8 text-primary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+              </svg>
+            </div>
+
+            <h3 class="text-2xl font-bold text-secondary-900 mb-4">
+              Enterprise
+            </h3>
+
+            <p class="text-secondary-600 mb-8">
+              {t('pricing.contact')}
+            </p>
+
+            <!-- Features list -->
+            <ul class="space-y-4 text-left mb-8">
+              <li class="flex items-center">
+                <svg class="w-5 h-5 text-primary-600 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-secondary-600">Unlimited conversations</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-5 h-5 text-primary-600 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-secondary-600">All integrations included</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-5 h-5 text-primary-600 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-secondary-600">Real-time dashboard</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-5 h-5 text-primary-600 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-secondary-600">Custom reports & analytics</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-5 h-5 text-primary-600 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-secondary-600">Dedicated support</span>
+              </li>
+              <li class="flex items-center">
+                <svg class="w-5 h-5 text-primary-600 mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span class="text-secondary-600">SLA guarantee</span>
+              </li>
+            </ul>
+
+            <a
+              href="#contact"
+              class="block w-full py-4 px-6 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors"
+            >
+              {t('pricing.cta')}
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
