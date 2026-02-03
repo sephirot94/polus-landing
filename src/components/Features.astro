@@ -1,6 +1,8 @@
 ---
+import type { TranslationFunction, TranslationKey } from '../i18n/translations';
+
 interface Props {
-  t: (key: string) => string;
+  t: TranslationFunction;
 }
 
 const { t } = Astro.props;
@@ -70,10 +72,10 @@ const features = [
 
             <!-- Content -->
             <h3 class="text-xl font-semibold text-secondary-900 mb-3">
-              {t(`features.${feature.key}.title`)}
+              {t(`features.${feature.key}.title` as TranslationKey)}
             </h3>
             <p class="text-secondary-600">
-              {t(`features.${feature.key}.description`)}
+              {t(`features.${feature.key}.description` as TranslationKey)}
             </p>
           </div>
         </div>

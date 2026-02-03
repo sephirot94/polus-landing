@@ -1,6 +1,8 @@
 ---
+import type { TranslationFunction } from '../i18n/translations';
+
 interface Props {
-  t: (key: string) => string;
+  t: TranslationFunction;
   currentLang: string;
 }
 

@@ -261,6 +261,7 @@ export const translations = {
 } as const;
 
 export type TranslationKey = keyof (typeof translations)['es'];
+export type TranslationFunction = (key: TranslationKey) => string;
 
 export function getLangFromUrl(url: URL) {
   const [, lang] = url.pathname.split('/');
