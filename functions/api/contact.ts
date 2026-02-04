@@ -50,12 +50,22 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         to: ['sales@polussolution.com'],
         reply_to: data.email,
         subject: `New contact form submission from ${data.company}`,
+        text: `New Contact Form Submission
+
+Company: ${data.company}
+Email: ${data.email}
+${data.size ? `Team Size: ${data.size}\n` : ''}${data.message ? `\nMessage:\n${data.message}` : ''}
+
+---
+Reply directly to this email to respond to ${data.email}`,
         html: `
           <h2>New Contact Form Submission</h2>
           <p><strong>Company:</strong> ${data.company}</p>
           <p><strong>Email:</strong> ${data.email}</p>
           ${data.size ? `<p><strong>Team Size:</strong> ${data.size}</p>` : ''}
           ${data.message ? `<p><strong>Message:</strong></p><p>${data.message.replace(/\n/g, '<br>')}</p>` : ''}
+          <hr style="margin: 20px 0; border: none; border-top: 1px solid #ccc;">
+          <p style="color: #666; font-size: 14px;">Reply directly to this email to respond to ${data.email}</p>
         `,
       }),
     });
