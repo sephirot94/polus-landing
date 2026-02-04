@@ -21,6 +21,7 @@ export const translations = {
       'Transforme sus interacciones con clientes en insights accionables. Análisis de sentimiento, detección de escalaciones y métricas en tiempo real para WhatsApp, Email y sistemas de tickets.',
     'hero.cta.primary': 'Solicitar Demo',
     'hero.cta.secondary': 'Ver Funcionalidades',
+    'hero.integrations': 'Integrado con las plataformas que ya usa',
 
     // Features
     'features.title': 'Todo lo que necesita para entender a sus clientes',
@@ -45,7 +46,7 @@ export const translations = {
 
     'features.escalation.title': 'Detección de Escalaciones',
     'features.escalation.description':
-      'Identifique automáticamente menciones a PROCON, PROFECO, INDECOPI y otras entidades reguladoras.',
+      'Detecte automáticamente cuando las conversaciones con sus clientes resultarán en acciones críticas como reembolsos o cancelaciones.',
 
     'features.analytics.title': 'Reportes y Analytics',
     'features.analytics.description':
@@ -56,6 +57,12 @@ export const translations = {
     'pricing.subtitle': 'Comience gratis y escale según sus necesidades.',
     'pricing.contact': 'Contáctenos para precios personalizados',
     'pricing.cta': 'Contactar Ventas',
+    'pricing.features.conversations': 'Conversaciones ilimitadas',
+    'pricing.features.integrations': 'Todas las integraciones incluidas',
+    'pricing.features.dashboard': 'Dashboard en tiempo real',
+    'pricing.features.reports': 'Reportes y analytics personalizados',
+    'pricing.features.support': 'Soporte dedicado',
+    'pricing.features.sla': 'Garantía SLA',
 
     // CTA Section
     'cta.title': '¿Listo para transformar su atención al cliente?',
@@ -77,6 +84,12 @@ export const translations = {
     'contact.submit': 'Enviar Mensaje',
     'contact.success': '¡Mensaje enviado! Nos comunicaremos pronto.',
     'contact.error': 'Error al enviar. Por favor intente nuevamente.',
+    'contact.email.label': 'Email',
+    'contact.location.title': 'Latinoamérica',
+    'contact.location.description': 'Atendiendo empresas en toda LATAM',
+    'contact.form.email.placeholder': 'nombre@empresa.com',
+    'contact.form.company.placeholder': 'Empresa S.A.',
+    'contact.form.message.placeholder': 'Cuéntenos sobre sus necesidades...',
 
     // Footer
     'footer.description':
@@ -105,6 +118,7 @@ export const translations = {
       'Transforme suas interações com clientes em insights acionáveis. Análise de sentimento, detecção de escalações e métricas em tempo real para WhatsApp, Email e sistemas de tickets.',
     'hero.cta.primary': 'Solicitar Demo',
     'hero.cta.secondary': 'Ver Funcionalidades',
+    'hero.integrations': 'Integrado com as plataformas que você já usa',
 
     // Features
     'features.title': 'Tudo o que você precisa para entender seus clientes',
@@ -129,7 +143,7 @@ export const translations = {
 
     'features.escalation.title': 'Detecção de Escalações',
     'features.escalation.description':
-      'Identifique automaticamente menções ao PROCON, Reclame Aqui, ANATEL e outras entidades reguladoras.',
+      'Detecte automaticamente quando as conversas com seus clientes resultarão em ações críticas como reembolsos ou cancelamentos.',
 
     'features.analytics.title': 'Relatórios e Analytics',
     'features.analytics.description':
@@ -140,6 +154,12 @@ export const translations = {
     'pricing.subtitle': 'Comece gratuitamente e escale conforme suas necessidades.',
     'pricing.contact': 'Entre em contato para preços personalizados',
     'pricing.cta': 'Contatar Vendas',
+    'pricing.features.conversations': 'Conversas ilimitadas',
+    'pricing.features.integrations': 'Todas as integrações incluídas',
+    'pricing.features.dashboard': 'Dashboard em tempo real',
+    'pricing.features.reports': 'Relatórios e analytics personalizados',
+    'pricing.features.support': 'Suporte dedicado',
+    'pricing.features.sla': 'Garantia SLA',
 
     // CTA Section
     'cta.title': 'Pronto para transformar seu atendimento ao cliente?',
@@ -150,7 +170,7 @@ export const translations = {
     // Contact Form
     'contact.title': 'Entre em Contato',
     'contact.subtitle': 'Estamos aqui para ajudá-lo. Preencha o formulário e entraremos em contato em breve.',
-    'contact.email': 'Email empresarial',
+    'contact.email': 'Email comercial',
     'contact.company': 'Nome da empresa',
     'contact.size': 'Tamanho da equipe',
     'contact.size.small': '1-10 funcionários',
@@ -161,6 +181,12 @@ export const translations = {
     'contact.submit': 'Enviar Mensagem',
     'contact.success': 'Mensagem enviada! Entraremos em contato em breve.',
     'contact.error': 'Erro ao enviar. Por favor, tente novamente.',
+    'contact.email.label': 'Email',
+    'contact.location.title': 'América Latina',
+    'contact.location.description': 'Atendendo empresas em toda LATAM',
+    'contact.form.email.placeholder': 'nome@empresa.com',
+    'contact.form.company.placeholder': 'Empresa Ltda.',
+    'contact.form.message.placeholder': 'Conte-nos sobre suas necessidades...',
 
     // Footer
     'footer.description':
@@ -189,6 +215,7 @@ export const translations = {
       'Transform your customer interactions into actionable insights. Sentiment analysis, escalation detection, and real-time metrics for WhatsApp, Email, and ticketing systems.',
     'hero.cta.primary': 'Request Demo',
     'hero.cta.secondary': 'View Features',
+    'hero.integrations': 'Integrated with the platforms you already use',
 
     // Features
     'features.title': 'Everything you need to understand your customers',
@@ -213,7 +240,7 @@ export const translations = {
 
     'features.escalation.title': 'Escalation Detection',
     'features.escalation.description':
-      'Automatically identify mentions of PROCON, PROFECO, INDECOPI, and other regulatory bodies.',
+      'Automatically detect when customer conversations will result in actionable items, like refunds or churn.',
 
     'features.analytics.title': 'Reports & Analytics',
     'features.analytics.description':
@@ -224,6 +251,12 @@ export const translations = {
     'pricing.subtitle': 'Start free and scale as you grow.',
     'pricing.contact': 'Contact us for custom pricing',
     'pricing.cta': 'Contact Sales',
+    'pricing.features.conversations': 'Unlimited conversations',
+    'pricing.features.integrations': 'All integrations included',
+    'pricing.features.dashboard': 'Real-time dashboard',
+    'pricing.features.reports': 'Custom reports & analytics',
+    'pricing.features.support': 'Dedicated support',
+    'pricing.features.sla': 'SLA guarantee',
 
     // CTA Section
     'cta.title': 'Ready to transform your customer service?',
@@ -245,6 +278,12 @@ export const translations = {
     'contact.submit': 'Send Message',
     'contact.success': "Message sent! We'll get back to you soon.",
     'contact.error': 'Error sending message. Please try again.',
+    'contact.email.label': 'Email',
+    'contact.location.title': 'Latin America',
+    'contact.location.description': 'Serving companies across LATAM',
+    'contact.form.email.placeholder': 'name@company.com',
+    'contact.form.company.placeholder': 'Company Inc.',
+    'contact.form.message.placeholder': 'Tell us about your needs...',
 
     // Footer
     'footer.description':

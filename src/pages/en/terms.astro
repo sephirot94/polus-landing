@@ -1,0 +1,79 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { useTranslations } from '../../i18n/translations';
+
+const lang = 'en';
+const t = useTranslations(lang);
+---
+
+<Layout title="Terms of Service - Polus" lang={lang}>
+  <Header t={t} currentLang={lang} />
+  <main class="pt-24 pb-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl font-bold text-secondary-900 mb-8">Terms of Service</h1>
+
+      <div class="prose prose-secondary max-w-none">
+        <p class="text-secondary-600 mb-6">
+          Last updated: January 2025
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">1. Acceptance of Terms</h2>
+        <p class="text-secondary-600 mb-4">
+          By accessing and using Polus services, you agree to be bound by these terms of service.
+          If you disagree with any part of these terms, you may not use our services.
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">2. Service Description</h2>
+        <p class="text-secondary-600 mb-4">
+          Polus provides a conversation intelligence platform that includes:
+        </p>
+        <ul class="list-disc pl-6 text-secondary-600 mb-4">
+          <li>Multilingual sentiment analysis</li>
+          <li>Escalation detection</li>
+          <li>Integration with communication platforms</li>
+          <li>Dashboard and analytics reports</li>
+        </ul>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">3. Acceptable Use</h2>
+        <p class="text-secondary-600 mb-4">
+          You agree to:
+        </p>
+        <ul class="list-disc pl-6 text-secondary-600 mb-4">
+          <li>Use the service in accordance with applicable laws</li>
+          <li>Maintain the confidentiality of your access credentials</li>
+          <li>Not attempt unauthorized access to systems or data</li>
+          <li>Not use the service for illegal or unauthorized purposes</li>
+        </ul>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">4. Intellectual Property</h2>
+        <p class="text-secondary-600 mb-4">
+          All intellectual property rights in the service belong to Polus.
+          You retain all rights to the data you process through our platform.
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">5. Limitation of Liability</h2>
+        <p class="text-secondary-600 mb-4">
+          Polus shall not be liable for indirect, incidental, special, or consequential damages
+          resulting from the use or inability to use the service.
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">6. Modifications</h2>
+        <p class="text-secondary-600 mb-4">
+          We reserve the right to modify these terms at any time.
+          We will notify you of significant changes via your registered email.
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">7. Contact</h2>
+        <p class="text-secondary-600 mb-4">
+          For questions about these terms, contact us at:
+          <a href="mailto:legal@polussolution.com" class="text-primary-600 hover:text-primary-700">
+            legal@polussolution.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <Footer t={t} currentLang={lang} />
+</Layout>

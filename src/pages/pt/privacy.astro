@@ -1,0 +1,78 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { useTranslations } from '../../i18n/translations';
+
+const lang = 'pt';
+const t = useTranslations(lang);
+---
+
+<Layout title="Política de Privacidade - Polus" lang={lang}>
+  <Header t={t} currentLang={lang} />
+  <main class="pt-24 pb-16">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl font-bold text-secondary-900 mb-8">Política de Privacidade</h1>
+
+      <div class="prose prose-secondary max-w-none">
+        <p class="text-secondary-600 mb-6">
+          Última atualização: Janeiro 2025
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">1. Informações que Coletamos</h2>
+        <p class="text-secondary-600 mb-4">
+          Coletamos informações que você nos fornece diretamente, incluindo:
+        </p>
+        <ul class="list-disc pl-6 text-secondary-600 mb-4">
+          <li>Informações de contato (nome, e-mail, telefone)</li>
+          <li>Informações da empresa</li>
+          <li>Dados de conversas processadas por nossa plataforma</li>
+        </ul>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">2. Uso das Informações</h2>
+        <p class="text-secondary-600 mb-4">
+          Utilizamos as informações coletadas para:
+        </p>
+        <ul class="list-disc pl-6 text-secondary-600 mb-4">
+          <li>Fornecer e melhorar nossos serviços</li>
+          <li>Processar e analisar conversas</li>
+          <li>Comunicar com você sobre atualizações do serviço</li>
+          <li>Cumprir obrigações legais</li>
+        </ul>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">3. Segurança de Dados</h2>
+        <p class="text-secondary-600 mb-4">
+          Implementamos medidas de segurança técnicas e organizacionais para proteger seus dados,
+          incluindo criptografia em trânsito e em repouso, controles de acesso e auditorias regulares.
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">4. Retenção de Dados</h2>
+        <p class="text-secondary-600 mb-4">
+          Retemos seus dados enquanto você mantiver uma conta ativa conosco ou conforme necessário
+          para fornecer nossos serviços. Você pode solicitar a exclusão de seus dados a qualquer momento.
+        </p>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">5. Seus Direitos</h2>
+        <p class="text-secondary-600 mb-4">
+          Você tem o direito de:
+        </p>
+        <ul class="list-disc pl-6 text-secondary-600 mb-4">
+          <li>Acessar seus dados pessoais</li>
+          <li>Retificar dados incorretos</li>
+          <li>Solicitar a exclusão de seus dados</li>
+          <li>Opor-se ao processamento de seus dados</li>
+          <li>Portar seus dados para outro provedor</li>
+        </ul>
+
+        <h2 class="text-xl font-semibold text-secondary-900 mt-8 mb-4">6. Contato</h2>
+        <p class="text-secondary-600 mb-4">
+          Para quaisquer dúvidas sobre esta política de privacidade, entre em contato conosco em:
+          <a href="mailto:privacy@polussolution.com" class="text-primary-600 hover:text-primary-700">
+            privacy@polussolution.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <Footer t={t} currentLang={lang} />
+</Layout>
