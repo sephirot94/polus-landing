@@ -46,7 +46,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'Polus Contact Form <onboarding@resend.dev>', // You'll update this with your verified domain
+        from: 'Polus Contact Form <sales@polussolution.com>',
         to: ['sales@polussolution.com'],
         reply_to: data.email,
         subject: `New contact form submission from ${data.company}`,
