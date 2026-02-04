@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment variables
+.env.example
+.env
+.env.local
+.env.production
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Astro
+.astro/
