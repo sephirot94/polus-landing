@@ -267,7 +267,7 @@ export const translations = {
     // Contact Form
     'contact.title': 'Contact Us',
     'contact.subtitle': "We're here to help. Fill out the form and we'll get back to you soon.",
-    'contact.email': 'Business email',
+    'contact.email': 'Company email',
     'contact.company': 'Company name',
     'contact.size': 'Team size',
     'contact.size.small': '1-10 employees',
