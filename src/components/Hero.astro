@@ -18,11 +18,6 @@ const { t } = Astro.props;
 
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
-      <!-- Badge -->
-      <div class="inline-flex items-center px-4 py-1.5 mb-6 bg-primary-100 text-primary-700 text-sm font-medium rounded-full">
-        <span class="w-2 h-2 bg-primary-500 rounded-full mr-2 animate-pulse"></span>
-        Optimizado para LATAM
-      </div>
 
       <!-- Heading -->
       <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-secondary-900 tracking-tight">
@@ -56,7 +51,7 @@ const { t } = Astro.props;
 
       <!-- Integration logos -->
       <div class="mt-16">
-        <p class="text-sm text-secondary-500 mb-6">Integrado con las plataformas que ya usa</p>
+        <p class="text-sm text-secondary-500 mb-6">{t('hero.integrations')}</p>
         <div class="flex flex-wrap items-center justify-center gap-8 opacity-60">
           <!-- WhatsApp -->
           <div class="flex items-center space-x-2 text-secondary-400">
